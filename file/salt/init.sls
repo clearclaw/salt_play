@@ -1,0 +1,6 @@
+include:
+  - .pkgs
+  - .master
+  - .minion
+  
+ 

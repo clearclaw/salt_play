@@ -1,0 +1,6 @@
+base:
+  "*":
+    - users
+
+  "*--synack":
+    - ssl

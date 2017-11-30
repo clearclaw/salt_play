@@ -1,0 +1,5 @@
+include:
+  - .pkgs
+  - .hostname
+  - .ssh
+

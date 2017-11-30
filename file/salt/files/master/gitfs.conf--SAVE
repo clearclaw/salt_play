@@ -1,0 +1,12 @@
+fileserver_backend:
+  - git
+gitfs_provider: pygit2
+gitfs_remotes:
+  - git@52.53.146.189:depot/salt_file:
+    - pubkey: /etc/salt/.ssh/id_rsa__salt.pub
+    - privkey: /etc/salt/.ssh/id_rsa__salt
+ext_pillar:
+  - git:
+    - master git@52.53.146.189:depot/salt_pillar:
+      - pubkey: /etc/salt/.ssh/id_rsa__salt.pub
+      - privkey: /etc/salt/.ssh/id_rsa__salt
